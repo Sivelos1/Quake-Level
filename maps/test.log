@@ -3,62 +3,66 @@ Input file: test.map
 Output file: test.bsp
 
 ---- LoadMapFile ----
+*** WARNING 02: Multiple info_player_start entities
+*** WARNING 02: Multiple info_player_start entities
+*** WARNING 02: Multiple info_player_start entities
+*** WARNING 02: Multiple info_player_start entities
 *** WARNING 06: No info_player_deathmatch entities in level
-         1060 faces
-          177 brushes
-           10 entities
-            8 unique texnames
-          180 texinfo
+         7570 faces
+         1293 brushes
+          124 entities
+           15 unique texnames
+          236 texinfo
 
 Opened WAD: C:/Users/devin/Documents/Quake-Level/Trenchbroom/quake-leveldesign-starterkit/wads/hipnotic.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          177 brushes
-          253 planes
+         1283 brushes
+         1454 planes
 ---- CSGFaces ----
-         1060 brushfaces
-          863 csgfaces
-          777 mergedfaces
+         7510 brushfaces
+         6215 csgfaces
+         4841 mergedfaces
 ---- SolidBSP ----
-         1009 split nodes
-          363 solid leafs
-          572 empty leafs
-           75 water leafs
+         5899 split nodes
+         2537 solid leafs
+         2639 empty leafs
+          724 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2833 leaffaces
-         2672 nodefaces
+        15504 leaffaces
+        13976 nodefaces
 ---- Portalize ----
-          647 vis leafs
-          647 vis clusters
-         2259 vis portals
+         3363 vis leafs
+         3363 vis clusters
+        11284 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (136 864 329), no filling performed.
+*** WARNING 10: Reached occupant at (1362 90 426), no filling performed.
 Leak file written to test.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (64 -480 -127), no filling performed.
+*** WARNING 10: Reached occupant at (608 1872 -247), no filling performed.
 Processing hull 2...
-*** WARNING 10: Reached occupant at (136 864 329), no filling performed.
+*** WARNING 10: Reached occupant at (608 1872 -247), no filling performed.
 ---- WriteBSPFile ----
 Wrote test.bsp
-          638 planes            12760
-         3466 vertexes          41592
-         1009 nodes             24216
-          123 texinfo            4920
-         2672 faces             53440
-         1465 clipnodes         11720
-          648 leafs             18144
-         2833 marksurfaces       5666
-        10644 surfedges         42576
-         7246 edges             28984
-            8 textures          81956
+         3941 planes            78820
+        17104 vertexes         205248
+         5959 nodes            143016
+          191 texinfo            7640
+        14036 faces            280720
+         9809 clipnodes         78472
+         3424 leafs             95872
+        15564 marksurfaces      31128
+        55805 surfedges        223220
+        37415 edges            149660
+           17 textures         178912
               lightdata             0
               visdata               0
-              entdata             291
+              entdata            3688
 
-0.400 seconds elapsed
-Peak memory usage: 14644002 (14.0M)
+2.090 seconds elapsed
+Peak memory usage: 79434060 (75.8M)
