@@ -62,7 +62,7 @@ Wrote test.bsp
            17 textures         178912
               lightdata             0
               visdata               0
-              entdata            3688
+              entdata            3724
 
-2.090 seconds elapsed
-Peak memory usage: 79434060 (75.8M)
+2.156 seconds elapsed
+Peak memory usage: 79434108 (75.8M)

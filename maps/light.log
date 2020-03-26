@@ -25,10 +25,10 @@ Final count: 4 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 921784
+lightdatasize: 921782
 0 switchable light styles (32 max)
 Writing test.bsp as BSP version 29
-1.158 seconds elapsed
+1.228 seconds elapsed
 
 stats:
 0.015824 lights tested, 0.003985 hits per sample point
