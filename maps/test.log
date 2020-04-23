@@ -8,36 +8,36 @@ Output file: test.bsp
 *** WARNING 02: Multiple info_player_start entities
 *** WARNING 02: Multiple info_player_start entities
 *** WARNING 06: No info_player_deathmatch entities in level
-         7570 faces
-         1293 brushes
-          124 entities
+         4414 faces
+          748 brushes
+           83 entities
            15 unique texnames
-          236 texinfo
+          254 texinfo
 
 Opened WAD: C:/Users/devin/Documents/Quake-Level/Trenchbroom/quake-leveldesign-starterkit/wads/hipnotic.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-         1283 brushes
+          738 brushes
          1454 planes
 ---- CSGFaces ----
-         7510 brushfaces
-         6215 csgfaces
-         4841 mergedfaces
+         4354 brushfaces
+         6045 csgfaces
+         4842 mergedfaces
 ---- SolidBSP ----
-         5899 split nodes
-         2537 solid leafs
-         2639 empty leafs
-          724 water leafs
+         5872 split nodes
+         2545 solid leafs
+         2651 empty leafs
+          677 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        15504 leaffaces
-        13976 nodefaces
+        15450 leaffaces
+        13927 nodefaces
 ---- Portalize ----
-         3363 vis leafs
-         3363 vis clusters
-        11284 vis portals
+         3328 vis leafs
+         3328 vis clusters
+        11126 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (1362 90 426), no filling performed.
 Leak file written to test.pts
@@ -49,20 +49,20 @@ Processing hull 2...
 *** WARNING 10: Reached occupant at (608 1872 -247), no filling performed.
 ---- WriteBSPFile ----
 Wrote test.bsp
-         3941 planes            78820
-        17104 vertexes         205248
-         5959 nodes            143016
-          191 texinfo            7640
-        14036 faces            280720
-         9809 clipnodes         78472
-         3424 leafs             95872
-        15564 marksurfaces      31128
-        55805 surfedges        223220
-        37415 edges            149660
+         3942 planes            78840
+        16961 vertexes         203532
+         5932 nodes            142368
+          207 texinfo            8280
+        13987 faces            279740
+         9796 clipnodes         78368
+         3389 leafs             94892
+        15510 marksurfaces      31020
+        55608 surfedges        222432
+        37193 edges            148772
            17 textures         178912
               lightdata             0
               visdata               0
-              entdata            3724
+              entdata            3657
 
-2.156 seconds elapsed
-Peak memory usage: 79434108 (75.8M)
+1.718 seconds elapsed
+Peak memory usage: 71690320 (68.4M)

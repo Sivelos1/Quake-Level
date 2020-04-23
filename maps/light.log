@@ -1,36 +1,33 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 4 threads
-LoadBSPFile: 'test.bsp'
+LoadBSPFile: 'descent.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: brush entity with mins (97.00 1873.00 17.00) maxs (143.00 1919.00 95.0) (trigger_multiple) has targetname "ArenaTeleportTrigger1" which is not targetted by anything.
-WARNING: brush entity with mins (-159.00 1857.00 17.) maxs (-97.00 1903.00 95.0) (trigger_multiple) has targetname "ArenaTeleportTrigger2" which is not targetted by anything.
-42 entities read, 4 are lights.
+2 entities read, 0 are lights.
 --- OptionsSummary ---
-    "light" was set to "256.000000" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	132 sky faces
-	13134 solid faces
+	0 sky faces
+	453 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 4 initial lights
-SetupLights: 4 after surface lights
-SetupLights: 4 after jittering
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7..
-Final count: 4 lights 0 suns in use.
+
+Final count: 0 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 921782
+lightdatasize: 0
 0 switchable light styles (32 max)
-Writing test.bsp as BSP version 29
-1.228 seconds elapsed
+Writing descent.bsp as BSP version 29
+0.175 seconds elapsed
 
 stats:
-0.015824 lights tested, 0.003985 hits per sample point
+0.000000 lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
-321 empty lightmaps
+0 empty lightmaps
