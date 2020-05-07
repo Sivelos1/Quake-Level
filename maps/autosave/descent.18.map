@@ -2737,25 +2737,3 @@
 "origin" "1823 -2959 -136"
 "angle" "60"
 }
-// entity 22
-{
-"classname" "monster_knight"
-"origin" "1968 -2960 -136"
-"angle" "60"
-}
-// entity 23
-{
-"classname" "monster_knight"
-"origin" "1776 -2912 -136"
-"angle" "60"
-}
-// entity 24
-{
-"classname" "item_health"
-"origin" "2032 -2528 -160"
-}
-// entity 25
-{
-"classname" "item_shells"
-"origin" "2096 -2560 -160"
-}

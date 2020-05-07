@@ -1,0 +1,64 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: bossBattle.map
+Output file: bossBattle.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+          295 faces
+           50 brushes
+            9 entities
+            2 unique texnames
+           29 texinfo
+
+Opened WAD: C:/Users/devin/Documents/Quake-Level/Trenchbroom/quake-leveldesign-starterkit/wads/START.WAD
+Processing hull 0...
+---- Brush_LoadEntity ----
+           46 brushes
+          139 planes
+---- CSGFaces ----
+          271 brushfaces
+          255 csgfaces
+          220 mergedfaces
+---- SolidBSP ----
+          279 split nodes
+           71 solid leafs
+          209 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          428 leaffaces
+          366 nodefaces
+---- Portalize ----
+          209 vis leafs
+          209 vis clusters
+          797 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (16 -0 40), no filling performed.
+Leak file written to bossBattle.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (48 128 204), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (48 128 204), no filling performed.
+---- WriteBSPFile ----
+Wrote bossBattle.bsp
+          315 planes             6300
+          437 vertexes           5244
+          302 nodes              7248
+           27 texinfo            1080
+          392 faces              7840
+          453 clipnodes          3624
+          232 leafs              6496
+          456 marksurfaces        912
+         1495 surfedges          5980
+          927 edges              3708
+            2 textures          11868
+              lightdata             0
+              visdata               0
+              entdata             534
+
+0.282 seconds elapsed
+Peak memory usage: 2581916 (2.5M)
